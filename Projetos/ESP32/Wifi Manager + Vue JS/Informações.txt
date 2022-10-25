@@ -1,0 +1,7 @@
+Copiar o conteudo da pasta "Projeto VS Code + Platform io" e colar na estrutura do Projeto.
+Lembrando que após finalizar o upload da firmware, é necessário ir em "project tasks" > Esp32dev > Platform > Upload Filesystem Image.
+
+Placa: ESP32 Dev Module
+Programa: VS Code
+Extensão: Platform IO
+*** Projeto feito pelo portal Embarcados ***
