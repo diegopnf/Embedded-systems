@@ -7,7 +7,7 @@ $potenciahora = filter_input(INPUT_GET, 'potenciahora'); //variaveis da firmware
 $frequencia = filter_input(INPUT_GET, 'frequencia'); //variaveis da firmware esp8266
 $fatordepotencia = filter_input(INPUT_GET, 'fatordepotencia'); //variaveis da firmware esp8266
 
-
+//Arquivo no diretorio /var/www/html do ubuntu server
 
 $servername = "localhost";
 $username = "XXXXXXXXXX"; //usuario do banco
@@ -26,3 +26,5 @@ if (!$conn->query($sql)) {
 }
 $conn->close();
 ?>
+
+
