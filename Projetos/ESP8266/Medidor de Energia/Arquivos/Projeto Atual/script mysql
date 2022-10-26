@@ -1,0 +1,9 @@
+CREATE TABLE `equipamento` (
+  `codigo` int(11) NOT NULL,
+  `tensao` float NOT NULL,
+  `corrente` float NOT NULL,
+  `potencia` float NOT NULL,
+  `potenciahora` float NOT NULL,
+  `frequencia` float NOT NULL,
+  `fatordepotencia` float NOT NULL,
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
