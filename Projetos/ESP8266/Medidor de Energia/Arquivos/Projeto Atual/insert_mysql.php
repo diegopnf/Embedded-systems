@@ -18,7 +18,7 @@ if ($conn->connect_error) {
   //Gravar log de erros
   die("Não foi possível estabelecer conexão com o BD: " . $conn->connect_error);
 }
-$sql = "INSERT INTO medidor_de_energia.equipamento (codigo, tensao, corrente, potencia, potenciahora, frequencia, fatordepotencia) VALUES ($codigo,$tensao,$corrente,$potencia,$potenciahora,>
+$sql = "INSERT INTO medidor_de_energia.equipamento (codigo, tensao, corrente, potencia, potenciahora, frequencia, fatordepotencia) VALUES ($codigo,$tensao,$corrente,$potencia,$potenciahora,$frequencia,$fatordepotencia)";
 
 if (!$conn->query($sql)) {
   //Gravar log de erros
